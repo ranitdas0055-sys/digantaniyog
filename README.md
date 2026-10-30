@@ -6,8 +6,8 @@ A responsive Bengali/English government-job information portal for West Bengal, 
 1. In Cloudflare, open **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
 2. Select `ranitdas0055-sys/digantaniyog`.
 3. Framework preset: **None**.
-4. Build command: leave empty.
-5. Build output directory: `/`.
+4. Build command: `exit 0`.
+5. Build output directory: `.` (repository root, where `index.html` lives).
 6. Save and deploy.
 
 The site is a static HTML/CSS/JS site and does not need a build step.
